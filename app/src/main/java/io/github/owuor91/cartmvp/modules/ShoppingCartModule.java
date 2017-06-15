@@ -6,13 +6,14 @@ import android.preference.PreferenceManager;
 
 import javax.inject.Singleton;
 
+import dagger.Module;
 import dagger.Provides;
 import io.github.owuor91.cartmvp.ShoppingCart;
 
 /**
  * Created by johnowuor on 15/06/2017.
  */
-
+@Module
 public class ShoppingCartModule {
 
     @Provides
